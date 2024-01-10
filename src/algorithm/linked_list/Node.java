@@ -2,11 +2,17 @@ package algorithm.linked_list;
 
 public class Node {
 
-    Node next;
-    int data;
+    public Node next;
+    public int data;
+
+    public Node prev;
 
     public Node(int data) {
         this.data = data;
+    }
+
+    public Node getPrev() {
+        return prev;
     }
 
     public Node getNext() {
@@ -16,4 +22,5 @@ public class Node {
     public int getData() {
         return data;
     }
+
 }
