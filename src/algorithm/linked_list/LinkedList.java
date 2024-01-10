@@ -5,6 +5,14 @@ public class LinkedList {
 
     int count;
 
+    public Node getHead() {
+        return head;
+    }
+
+    public int getCount() {
+        return count;
+    }
+
     public LinkedList() {
         this.head = null;
         this.count = 0;
